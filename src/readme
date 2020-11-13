@@ -1,0 +1,4 @@
+API key = dc9dcb685d24ede77b6a9a0279eb17be
+featured: https://api.themoviedb.org/3/discover/movie?api_key=<<api_key>>&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1
+images: https://image.tmdb.org/t/p/w500/
+Search: https://api.themoviedb.org/3/search/movie?api_key=<<api_key>>&language=en-US&page=1&include_adult=false

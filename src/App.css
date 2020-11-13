@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(45, 65, 71);
+  height: 100vh;
+  color: white;
+}
+
+.movie__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+header{
+  padding: 1rem;
+  background: #373b69;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+header h1{
+  margin: 0;
+}
+
+.search{
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: 2px solid #373b69;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  outline-style: none;
+  outline-width: none;
+  color: white;
+}
